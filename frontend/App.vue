@@ -1,0 +1,13 @@
+<template>
+	<router-view/>
+</template>
+
+<style lang="scss">
+@import "~bulma/sass/utilities/all";
+@import "~bulma/sass/base/all";
+@import "~bulma/sass/elements/all";
+@import "~bulma/sass/form/all";
+@import "~bulma/sass/components/all";
+@import "~bulma/sass/grid/all";
+@import "~bulma/sass/layout/all";
+</style>

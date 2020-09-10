@@ -1,0 +1,15 @@
+# Dependencies
+node_modules
+
+# Secrets
+config.js
+
+# SQLite db
+sqlite.db
+
+# Webpack generated stuff
+public/*[.png, .svg, .jpg, .gif, .js, .gz, .html, .br]
+
+# Template and favicon
+!public/template.html
+!public/favicon.png

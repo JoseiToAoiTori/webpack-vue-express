@@ -1,0 +1,46 @@
+{
+  "name": "webpack-vue-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JoseiToAoiTori/webpack-vue-express",
+  "author": "JoseiToAoiTori",
+  "scripts": {
+    "start": "webpack && node .",
+    "build": "webpack",
+    "build-prod": "webpack -p",
+    "serve": "node ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "babel-loader": "^8.1.0",
+    "bundle-loader": "^0.5.6",
+    "compression-webpack-plugin": "^5.0.2",
+    "css-loader": "^4.3.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
+    "sirv": "^1.0.6",
+    "sqlite3": "^5.0.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3",
+    "vue-router": "^3.4.3",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.5.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "another-logger": "^2.0.1",
+    "bulma": "^0.8.0",
+    "connect-session-sequelize": "^7.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.3.5",
+    "superagent": "^6.1.0"
+  }
+}
